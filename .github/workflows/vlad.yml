@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: opensshd
-      run: apt install openssh-server
+      run: sudo apt install openssh-server
