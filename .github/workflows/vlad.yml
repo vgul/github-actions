@@ -1,0 +1,10 @@
+
+name: GitHub Vlad
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Boot:
+    runs-on: ubuntu-latest
+    steps:
+    - name: opensshd
+      run: sudo apt install openssh-server
